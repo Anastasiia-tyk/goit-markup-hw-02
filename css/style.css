@@ -49,7 +49,7 @@ body {
 
 .header-menu-link:hover,
 .header-menu-link:focus {
-    color: #4d5ae5;
+    color: #404BBF;
 }
 
 .header-menu-link:active {
@@ -123,8 +123,11 @@ body {
     transition: background 0.3s ease;
 }
 
-.main-hero-btn:hover,
-.main-hero-btn:focus {
+.main-hero-btn:hover{
+    background-color: #404BBF;
+}
+
+.main-hero-btn:focus{
     background-color: #404BBF;
 }
 
