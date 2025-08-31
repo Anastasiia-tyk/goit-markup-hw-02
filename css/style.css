@@ -31,17 +31,17 @@ body {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.1667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
     text-decoration: none;
     display: flex;
     align-items: center;
 }
 
 .header-logo {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .header-menu-list {
@@ -63,11 +63,11 @@ body {
 }
 
 .header-menu-link:hover {
-    color: #404bbf;
+    color: #4d5ae5;
 }
 
 .header-menu-link:active {
-    color: #4d5ae5;
+    color: #404BBF; 
     text-decoration: underline;
 }
 
