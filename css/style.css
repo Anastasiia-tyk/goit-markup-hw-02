@@ -324,8 +324,9 @@ body {
     font-size: 36px;
 
     /* line-height: 40px; */
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
     text-align: center;
     color: #2E2F42;
 }
@@ -372,7 +373,7 @@ body {
     /* line-height: 24px; */
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--navy-blue);
+    color: #2E2F42;
     padding-left: 16px;
 }
 
