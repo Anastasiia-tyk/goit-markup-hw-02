@@ -14,17 +14,11 @@ body {
 /* HEADER */
 .header {
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
     height: 72px;
 }
 
 .header-nav {
-    display: flex;
-    align-items: center;
-    gap: 40px;
 }
 
 .header-nav-logo {
@@ -36,8 +30,6 @@ body {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: flex;
-    align-items: center;
 }
 
 .header-logo {
@@ -45,11 +37,8 @@ body {
 }
 
 .header-menu-list {
-    display: flex;
-    gap: 40px;
     list-style: none;
     margin: 0;
-    padding: 0;
 }
 
 .header-menu-link {
@@ -71,18 +60,11 @@ body {
     text-decoration: underline;
 }
 
-.header-contacts {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-}
+.header-contacts {}
 
 .header-contacts-list {
-    display: flex;
-    gap: 24px;
     list-style: none;
     margin: 0;
-    padding: 0;
 }
 
 .header-contacts-item {
@@ -105,12 +87,7 @@ body {
 /* MAIN CONTENTS */
 
 .main {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 0px;
-    padding: 0px 0px;
 }
 
 
@@ -119,11 +96,7 @@ body {
     height: 600px;
     background: #2e2f42;
 
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 48px;
 }
 
 .main-hero-title {
@@ -141,8 +114,6 @@ body {
 .main-hero-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    border-radius: 4px;
-    padding: 16px 32px;
     border: none;
     cursor: pointer;
 
@@ -165,9 +136,7 @@ body {
 /* SECTION 1 - FEATURES */
 
 .main-features {
-    display: flex;
     justify-content: center;
-    padding: 80px 0;
     width: 100%;
 }
 
@@ -179,22 +148,14 @@ body {
 }
 
 .main-features-list {
-    display: flex;
     justify-content: space-between;
-    gap: 24px;
     list-style: none;
     margin: 0;
-    padding: 0;
     max-width: 1128px;
     width: 100%;
 }
 
 .main-features-item {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    flex: 1;
     min-width: 240px;
 }
 
@@ -222,11 +183,7 @@ body {
 
 .main-team {
     background-color: #F4F4FD;
-    display: flex;
     justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
 
     padding: 80px 0;
     width: 100%;
@@ -250,24 +207,15 @@ body {
 .main-team-list {
     list-style: none;
     
-    display: flex;
     justify-content: space-between;
-    gap: 24px;
     list-style: none;
     margin: 0;
-    padding: 0;
     max-width: 1128px;
     width: 100%;
 }
 
 .main-team-item {
-    display: flex;
-    align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 0px;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px;
     width: 264px;
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -306,12 +254,7 @@ body {
 /* SECTION 4 - PORTFOLIO */
 
 .main-portfolio {
-    display: flex;
     justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
-    padding: 80px 0;
     width: 100%;
 
     width: 1128px;
@@ -333,25 +276,15 @@ body {
 
 .main-portfolio-list {
     list-style: none;
-    display: flex;
     justify-content: space-between;
-    gap: 24px;
     margin: 0;
-    padding: 0;
     max-width: 1128px;
     width: 100%;
     flex-wrap: wrap;
-    align-content: flex-start;
     height: 840px;
-    align-items: flex-start;
 }
 
 .main-portfolio-item {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    gap: 0px;
-    padding: 0px 0px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #ffffff;
 
@@ -374,7 +307,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-left: 16px;
 }
 
 .main-portfolio-text {
@@ -386,29 +318,13 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-left: 16px;
 }
 
 /* FOOTER */
 
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 40px;
-    padding: 0px 0;
-    margin-top: 320px;
-
-    width: 1440px;
-    height: 312px;
     max-width: 100%;
     background: #2E2F42;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 16px;
-    padding-left: 156px;
     color: #ffffff
 }
 
